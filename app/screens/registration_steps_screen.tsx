@@ -154,7 +154,7 @@ export default function RegistrationStepsScreen() {
 
       {/* Next Button - Fixed at bottom */}
       <View className="absolute bottom-0 left-0 right-0 p-4 bg-white border-t border-gray-100">
-        <Pressable className="bg-[#6ABEEC] rounded-full py-4 items-center shadow-sm" onPress={() => router.push("/screens/profileScreen")}>
+        <Pressable className="bg-[#6ABEEC] rounded-full py-4 items-center shadow-sm" onPress={() => router.push("/screens/homeScreen")}>
           <Text className="text-white text-lg font-semibold">Next</Text>
         </Pressable>
       </View>
