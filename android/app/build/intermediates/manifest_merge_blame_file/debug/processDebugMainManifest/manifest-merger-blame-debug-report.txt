@@ -1,0 +1,242 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.realestatefinder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:5:3-75
+11-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:5:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:3:3-64
+12-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:3:20-62
+13    <uses-permission android:name="android.permission.VIBRATE" /> <!-- These require runtime permissions on M -->
+13-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:6:3-63
+13-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:6:20-61
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:8:3-77
+14-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:8:20-75
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- END OPTIONAL PERMISSIONS -->
+15-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:9:3-78
+15-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:9:20-76
+16    <queries>
+16-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:12:3-19:13
+17
+18        <!-- Support checking for http(s) links via the Linking API -->
+19        <intent>
+19-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:14:5-18:14
+20            <action android:name="android.intent.action.VIEW" />
+20-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:15:7-59
+20-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:15:15-56
+21
+22            <category android:name="android.intent.category.BROWSABLE" />
+22-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:16:7-68
+22-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:16:17-65
+23
+24            <data android:scheme="https" />
+24-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:17:7-38
+24-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:17:13-35
+25        </intent>
+26        <!-- Query open documents -->
+27        <intent>
+27-->[:expo-file-system] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:9-17:18
+28            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+28-->[:expo-file-system] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-79
+28-->[:expo-file-system] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:21-76
+29        </intent>
+30        <intent>
+30-->[:expo-web-browser] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-web-browser/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-12:18
+31
+32            <!-- Required for opening tabs if targeting API 30 -->
+33            <action android:name="android.support.customtabs.action.CustomTabsService" />
+33-->[:expo-web-browser] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-web-browser/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-90
+33-->[:expo-web-browser] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-web-browser/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:21-87
+34        </intent>
+35    </queries>
+36
+37    <permission
+37-->[androidx.core:core:1.13.1] /Users/MAC/.gradle/caches/8.10.2/transforms/0d2e1ae5a8affb57b5211de2dbedc2d5/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+38        android:name="com.realestatefinder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.13.1] /Users/MAC/.gradle/caches/8.10.2/transforms/0d2e1ae5a8affb57b5211de2dbedc2d5/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.13.1] /Users/MAC/.gradle/caches/8.10.2/transforms/0d2e1ae5a8affb57b5211de2dbedc2d5/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.realestatefinder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.13.1] /Users/MAC/.gradle/caches/8.10.2/transforms/0d2e1ae5a8affb57b5211de2dbedc2d5/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.13.1] /Users/MAC/.gradle/caches/8.10.2/transforms/0d2e1ae5a8affb57b5211de2dbedc2d5/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+42
+43    <application
+43-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:21:3-28:17
+44        android:name="com.realestatefinder.MainApplication"
+44-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:21:16-47
+45        android:allowBackup="false"
+45-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:21:162-189
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.13.1] /Users/MAC/.gradle/caches/8.10.2/transforms/0d2e1ae5a8affb57b5211de2dbedc2d5/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+47        android:debuggable="true"
+48        android:extractNativeLibs="false"
+49        android:icon="@mipmap/ic_launcher"
+49-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:21:81-115
+50        android:label="@string/app_name"
+50-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:21:48-80
+51        android:roundIcon="@mipmap/ic_launcher_round"
+51-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:21:116-161
+52        android:supportsRtl="true"
+52-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:21:222-248
+53        android:theme="@style/AppTheme"
+53-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:21:190-221
+54        android:usesCleartextTraffic="true" >
+54-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/debug/AndroidManifest.xml:6:18-53
+55        <activity
+55-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:22:5-27:16
+56            android:name="com.realestatefinder.MainActivity"
+56-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:22:15-43
+57            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|uiMode"
+57-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:22:44-134
+58            android:exported="true"
+58-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:22:256-279
+59            android:launchMode="singleTask"
+59-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:22:135-166
+60            android:theme="@style/Theme.App.SplashScreen"
+60-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:22:210-255
+61            android:windowSoftInputMode="adjustResize" >
+61-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:22:167-209
+62            <intent-filter>
+62-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:23:7-26:23
+63                <action android:name="android.intent.action.MAIN" />
+63-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:24:9-60
+63-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:24:17-58
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:25:9-68
+65-->/Users/MAC/Desktop/task/ComfortMobileApp-main/android/app/src/main/AndroidManifest.xml:25:19-66
+66            </intent-filter>
+67        </activity>
+68
+69        <provider
+69-->[:react-native-webview] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-16:20
+70            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+70-->[:react-native-webview] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-83
+71            android:authorities="com.realestatefinder.fileprovider"
+71-->[:react-native-webview] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-64
+72            android:exported="false"
+72-->[:react-native-webview] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-37
+73            android:grantUriPermissions="true" >
+73-->[:react-native-webview] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-47
+74            <meta-data
+74-->[:react-native-webview] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-15:63
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->[:react-native-webview] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:17-67
+76                android:resource="@xml/file_provider_paths" />
+76-->[:react-native-webview] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-60
+77        </provider>
+78        <provider
+78-->[:expo-file-system] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:9-30:20
+79            android:name="expo.modules.filesystem.FileSystemFileProvider"
+79-->[:expo-file-system] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-74
+80            android:authorities="com.realestatefinder.FileSystemFileProvider"
+80-->[:expo-file-system] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-74
+81            android:exported="false"
+81-->[:expo-file-system] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-37
+82            android:grantUriPermissions="true" >
+82-->[:expo-file-system] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-file-system/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:13-47
+83            <meta-data
+83-->[:react-native-webview] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-15:63
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:react-native-webview] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:17-67
+85                android:resource="@xml/file_system_provider_paths" />
+85-->[:react-native-webview] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-60
+86        </provider>
+87
+88        <meta-data
+88-->[:expo-modules-core] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-11:89
+89            android:name="org.unimodules.core.AppLoader#react-native-headless"
+89-->[:expo-modules-core] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-79
+90            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+90-->[:expo-modules-core] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-86
+91        <meta-data
+91-->[:expo-modules-core] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:9-15:45
+92            android:name="com.facebook.soloader.enabled"
+92-->[:expo-modules-core] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-57
+93            android:value="true" />
+93-->[:expo-modules-core] /Users/MAC/Desktop/task/ComfortMobileApp-main/node_modules/expo-modules-core/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-33
+94
+95        <activity
+95-->[com.facebook.react:react-android:0.76.6] /Users/MAC/.gradle/caches/8.10.2/transforms/1b414691370e673b80caa50b2ae5a7bf/transformed/react-android-0.76.6-debug/AndroidManifest.xml:19:9-21:40
+96            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+96-->[com.facebook.react:react-android:0.76.6] /Users/MAC/.gradle/caches/8.10.2/transforms/1b414691370e673b80caa50b2ae5a7bf/transformed/react-android-0.76.6-debug/AndroidManifest.xml:20:13-77
+97            android:exported="false" />
+97-->[com.facebook.react:react-android:0.76.6] /Users/MAC/.gradle/caches/8.10.2/transforms/1b414691370e673b80caa50b2ae5a7bf/transformed/react-android-0.76.6-debug/AndroidManifest.xml:21:13-37
+98
+99        <provider
+99-->[androidx.emoji2:emoji2:1.3.0] /Users/MAC/.gradle/caches/8.10.2/transforms/ba43f1f86d5cc7381b21b24579825f96/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.emoji2:emoji2:1.3.0] /Users/MAC/.gradle/caches/8.10.2/transforms/ba43f1f86d5cc7381b21b24579825f96/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+101            android:authorities="com.realestatefinder.androidx-startup"
+101-->[androidx.emoji2:emoji2:1.3.0] /Users/MAC/.gradle/caches/8.10.2/transforms/ba43f1f86d5cc7381b21b24579825f96/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+102            android:exported="false" >
+102-->[androidx.emoji2:emoji2:1.3.0] /Users/MAC/.gradle/caches/8.10.2/transforms/ba43f1f86d5cc7381b21b24579825f96/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.3.0] /Users/MAC/.gradle/caches/8.10.2/transforms/ba43f1f86d5cc7381b21b24579825f96/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.3.0] /Users/MAC/.gradle/caches/8.10.2/transforms/ba43f1f86d5cc7381b21b24579825f96/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.3.0] /Users/MAC/.gradle/caches/8.10.2/transforms/ba43f1f86d5cc7381b21b24579825f96/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/MAC/.gradle/caches/8.10.2/transforms/de8de130c2460e19dcbddb8d1bb2fffc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/MAC/.gradle/caches/8.10.2/transforms/de8de130c2460e19dcbddb8d1bb2fffc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/MAC/.gradle/caches/8.10.2/transforms/de8de130c2460e19dcbddb8d1bb2fffc/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+109            <meta-data
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+110                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+111                android:value="androidx.startup" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+112        </provider>
+113
+114        <receiver
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+115            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+116            android:directBootAware="false"
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+117            android:enabled="true"
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+118            android:exported="true"
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+119            android:permission="android.permission.DUMP" >
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+121                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+124                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+127                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+128            </intent-filter>
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+130                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/MAC/.gradle/caches/8.10.2/transforms/d2069a706af0c7ed7b8fda979abc4f98/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+131            </intent-filter>
+132        </receiver>
+133    </application>
+134
+135</manifest>
