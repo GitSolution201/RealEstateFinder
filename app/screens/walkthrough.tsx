@@ -10,7 +10,7 @@ const Walkthrough = () => {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: "#fff" }}>
-      <TouchableOpacity style={styles.skipButton} onPress={() => router.push("/screens/HomeFlooringFeatures")}>
+      <TouchableOpacity style={styles.skipButton}>
         <Text style={styles.skipText}>Skip</Text>
       </TouchableOpacity>
       <Swiper loop={false} activeDotColor="#007AFF" style={styles.wrapper}>
