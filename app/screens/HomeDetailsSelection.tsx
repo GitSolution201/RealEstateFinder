@@ -17,7 +17,7 @@ interface SelectedOptions {
 
 const options: Options = {
   bedrooms: ["1", "2", "3", "4+"],
-  bathrooms: ["1", "2", "3", "4", "5"],
+  bathrooms: ["1 ", "2 ", "3 ", "4 ", "5 "],
 };
 
 export default function HomeDetailsSelection() {
@@ -26,6 +26,9 @@ export default function HomeDetailsSelection() {
   //   bedrooms: "2",
   //   bathrooms: "2",
   // });
+  const [selectedBath, setSelectedBath] = useState<string[]>([]);
+
+  const [selectedKitchen, setSelectedKitchen] = useState<string[]>([]);
   const [inputValues, setInputValues] = useState({
     input1: "",
     input2: "",
@@ -45,7 +48,7 @@ export default function HomeDetailsSelection() {
     router.push("/screens/HomeFeatures");
   };
   const toggleItem = (item: string) => {
-    setSelected((prev) => {
+    setSelectedBath((prev) => {
       if (prev.includes(item)) {
         // If the item is already selected, remove it
         return prev.filter((i) => i !== item);
@@ -65,9 +68,10 @@ export default function HomeDetailsSelection() {
         <Text className="text-2xl font-bold mb-2 text-gray-900 pb-8 pt-0">straight...</Text>
 
         {/* Options */}
+
         <OptionsSelector
           options={options}
-          selected={selected}
+          selected={selectedBath}
           onSelect={toggleItem}
           labels={{
             bedrooms: "Bedrooms",

@@ -13,7 +13,7 @@ export default function HomeFeatures() {
   const router = useRouter();
 
   const options: HomeFeatures = {
-    features: ["Pool", "Gym", "Garden", "Balcony", "Parking", "Security", "Security"],
+    features: ["Pool", "Gym", "Garden", "Balcony", "Parking", "Security"],
   };
 
   // const [selected, setSelected] = useState<Record<keyof HomeFeatures, string>>({
